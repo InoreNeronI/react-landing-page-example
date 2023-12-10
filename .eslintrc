@@ -13,10 +13,19 @@
     "plugin:react/recommended"
   ],
   "rules": {
-    "import/no-unresolved": "off",
-    "jsx-a11y/anchor-is-valid": "off",
-    "jsx-a11y/media-has-caption": "off",
+    "getter-return": "warn",
+    "import/no-unresolved": "warn",
+    "jsx-a11y/anchor-is-valid": "warn",
+    "jsx-a11y/media-has-caption": "warn",
+    "no-cond-assign": "warn",
+    "no-control-regex": "warn",
+    "no-empty": "warn",
+    "no-fallthrough": "warn",
+    "no-func-assign": "warn",
+    "no-misleading-character-class": "warn",
+    "no-prototype-builtins": "warn",
     "no-redeclare": "warn",
+    "no-sparse-arrays": "warn",
     "no-undef": "warn",
     "no-unused-vars": [
       "warn",
@@ -27,12 +36,15 @@
         "vars": "all"
       }
     ],
+    "no-useless-escape": "warn",
+    "react/display-name": "warn",
     "react/no-deprecated": "warn",
     "react/no-find-dom-node": "warn",
     "react/no-unescaped-entities": "warn",
     "react/no-unknown-property": "warn",
     "react/prop-types": "warn",
-    "react/react-in-jsx-scope": "warn"
+    "react/react-in-jsx-scope": "warn",
+    "valid-typeof": "warn"
   },
   "settings": {
     "react": {
