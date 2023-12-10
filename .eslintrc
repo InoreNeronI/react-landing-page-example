@@ -14,6 +14,7 @@
   ],
   "rules": {
     "getter-return": "warn",
+    "import/no-named-as-default": "off",
     "import/no-unresolved": "warn",
     "jsx-a11y/anchor-is-valid": "warn",
     "jsx-a11y/media-has-caption": "warn",
@@ -40,10 +41,10 @@
     "react/display-name": "warn",
     "react/no-deprecated": "warn",
     "react/no-find-dom-node": "warn",
-    "react/no-unescaped-entities": "warn",
-    "react/no-unknown-property": "warn",
+    "react/no-unescaped-entities": "off",
+    "react/no-unknown-property": "off",
     "react/prop-types": "warn",
-    "react/react-in-jsx-scope": "warn",
+    "react/react-in-jsx-scope": "off",
     "valid-typeof": "warn"
   },
   "settings": {
