@@ -1,0 +1,45 @@
+footer {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), url('../../assets/footerImg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  color: white;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+footer .footerTitle {
+  padding: 3rem 0;
+  font-weight: bold;
+  font-size: clamp(4.7rem, 10vw, 9.5rem);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+footer .sendEmailBtn {
+  transition: background 0.3s ease;
+  border: 2px solid green;
+  background: #ffb613;
+  padding: 1.2rem 6rem;
+  color: white;
+  font-size: clamp(1.3rem, 5vw, 1.7rem);
+  letter-spacing: 0.1rem;
+}
+
+footer .sendEmailBtn:hover {
+  background: rgb(255, 166, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  footer .sendEmailBtn {
+    padding: 1.2rem 3rem;
+  }
+}

@@ -1,0 +1,22 @@
+.navbar {
+  background-color: var(--primary-bg);
+  padding: 1rem 0;
+  color: var(--primary-text);
+}
+
+.navbar .link {
+  margin: 0 1rem;
+  color: rgb(71, 71, 71);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#responsive-navbar-nav .link:hover {
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+  #responsive-navbar-nav .link {
+    padding-top: 1rem;
+  }
+}
