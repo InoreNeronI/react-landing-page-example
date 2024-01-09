@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://inoreneroni.github.io/react-landing-page-example/static/css/main.eaaf29fc.css",
-    "main.js": "https://inoreneroni.github.io/react-landing-page-example/static/js/main.1673b0c7.js",
+    "main.js": "https://inoreneroni.github.io/react-landing-page-example/static/js/main.3fa94920.js",
     "static/media/Untitled_Artwork -1.png": "https://inoreneroni.github.io/react-landing-page-example/static/media/Untitled_Artwork -1.94ee20ae20bcf94ae088.png",
     "static/media/opener.png": "https://inoreneroni.github.io/react-landing-page-example/static/media/opener.ab12d447bc396fc7acbc.png",
     "static/media/footerImg.png": "https://inoreneroni.github.io/react-landing-page-example/static/media/footerImg.9346f29b7fb12dbb6b4f.png",
@@ -12,10 +12,10 @@
     "static/media/getStarted.png": "https://inoreneroni.github.io/react-landing-page-example/static/media/getStarted.a095059849d2f09eedfe.png",
     "index.html": "https://inoreneroni.github.io/react-landing-page-example/index.html",
     "main.eaaf29fc.css.map": "https://inoreneroni.github.io/react-landing-page-example/static/css/main.eaaf29fc.css.map",
-    "main.1673b0c7.js.map": "https://inoreneroni.github.io/react-landing-page-example/static/js/main.1673b0c7.js.map"
+    "main.3fa94920.js.map": "https://inoreneroni.github.io/react-landing-page-example/static/js/main.3fa94920.js.map"
   },
   "entrypoints": [
     "static/css/main.eaaf29fc.css",
-    "static/js/main.1673b0c7.js"
+    "static/js/main.3fa94920.js"
   ]
 }
